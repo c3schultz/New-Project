@@ -1,0 +1,125 @@
+body {
+  background-color: rgb(65, 65, 88);
+}
+.topbox {
+  border: 8px solid cadetblue;
+  text-align: center;
+  color: aliceblue;
+  text-shadow: 2px 1px rgb(134, 111, 111);
+  font-size: 20px;
+  background-color: rgba(125, 69, 136, 0.247);
+}
+.topnav {
+  overflow: hidden;
+  background-color: rgb(71, 64, 64);
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(134, 111, 111);
+  text-shadow: 1px 1px darkgray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.home {
+  color: aliceblue;
+  text-align: center;
+}
+.home h1 {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 1.5px 1px black;
+}
+.about {
+  text-align: center;
+  color: aliceblue;
+  position: relative;
+}
+.about h2 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.about p {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.about audio {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.shop {
+  color: rgb(253, 241, 241);
+  text-align: center;
+  position: relative;
+}
+.shop h2 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 1px 1px rgb(0, 0, 0);
+}
+.shop h5 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 1px 1px black;
+}
+.toggle {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.toggle a {
+  color: rgb(129, 90, 90);
+  text-shadow: 1px 0.5px rgb(172, 166, 166);
+  border-radius: 0.25rem;
+  border: 3px solid rgb(56, 53, 53);
+  padding: 2px;
+  background-color: rgb(160, 160, 185);
+}
+.dkpic {
+  max-width: 100%;
+  height: auto;
+}
+.aboutpic {
+  max-width: 100%;
+  height: auto;
+}
+.shoppic {
+  max-width: 100%;
+  height: auto;
+}
+
+.login {
+  float: right;
+  padding: 2px;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+.avatar {
+  border-radius: 15rem;
+  float: left;
+  margin-top: 1rem;
+}
+.loginPage {
+  border: 8px solid cadetblue;
+  margin-top: 1rem;
+}
+.cancelbtn {
+  justify-content: center;
+}
